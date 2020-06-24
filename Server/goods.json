@@ -1,0 +1,189 @@
+[
+	{
+		"id": 1,
+		"title": "Phone Apple iPhone 11 64GB Black",
+		"img": "https://i8.rozetka.ua/goods/14906549/copy_apple_iphone_11_64gb_black_5dc0395884001_images_14906549561.jpg",
+		"category": "phone",
+		"price": 28999,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 2,
+		"title": "Laptop HP Pavilion Gaming 15-ec0003ua",
+		"img": "https://i2.rozetka.ua/goods/17779645/copy_hp_9rh20ea_5e9468e1ca7de_images_17779645897.jpg",
+		"category": "laptop",
+		"price": 25999,
+		"sale": 2000,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	}, 
+	{
+		"id": 3,
+		"title": "Tablet Apple iPad 10.2 Wi-Fi 32GB Space Gray",
+		"img": "https://i8.rozetka.ua/goods/16946443/copy_apple_ipad_10_2_wi_fi_32gb_space_gray_mw742_5e4bbeb12a02f_images_16946443676.jpg",
+		"category": "tablet",
+		"price": 11999,
+		"sale": 1500,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 4,
+		"title": "Monitor 24 Samsung S24R350 Dark Silver",
+		"img": "https://i8.rozetka.ua/goods/17685151/samsung_ls24r350fhixci_images_17685151297.jpg",
+		"category": "monitor",
+		"price": 3499,
+		"sale": 100,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 5,
+		"title": "TV Samsung QE65Q80TAUXUA",
+		"img": "https://i2.rozetka.ua/goods/17603513/copy_samsung_qe55q80tauxua_5e8344a53b665_images_17603513383.jpg",
+		"category": "tv",
+		"price": 79999,
+		"sale": 0,
+		"percentSale": 19,
+		"isTop": false,
+		"isNew": false
+	}, 
+	{
+		"id": 6,
+		"title": "Tablet Samsung Galaxy Tab A 10.1 32GB LTE Black",
+		"img": "https://i1.rozetka.ua/goods/12161534/samsung_sm_t515nzkdsek_images_12161534788.jpg",
+		"category": "tablet",
+		"price": 7999,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 7,
+		"title": "Laptop Apple MacBook Pro 13 A2289",
+		"img": "https://i2.rozetka.ua/goods/18102019/copy_apple_mxk62ua_a_5eb196a539458_images_18102019909.jpg",
+		"category": "laptop",
+		"price": 28999,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": true
+	}, 
+	{
+		"id": 8,
+		"title": "Phone Samsung Galaxy Note 10 Lite",
+		"img": "https://i2.rozetka.ua/goods/16302561/samsung_galaxy_note_10_lite_6_128_gb_silver_sm_n770fzsdsek_images_16302561094.jpg",
+		"category": "phone",
+		"price": 15999,
+		"sale": 3000,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 9,
+		"title": "Laptop Lenovo IdeaPad S145-15IGM",
+		"img": "https://i8.rozetka.ua/goods/16307716/copy_lenovo_81mx002tra_5e1cab212fd51_images_16307716517.jpg",
+		"category": "laptop",
+		"price": 8499,
+		"sale": 0,
+		"percentSale": 6,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 10,
+		"title": "TV Samsung UE32T5300AUXUA",
+		"img": "https://i8.rozetka.ua/goods/18698566/samsung_ue32t5300auxua_images_18698566849.jpg",
+		"category": "tv",
+		"price": 7999,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": true,
+		"isNew": false
+	}, 
+	{
+		"id": 11,
+		"title": "Laptop HP 255 G7 (7DF20EA) Dark Ash",
+		"img": "https://i2.rozetka.ua/goods/12840226/copy_hp_6bn09ea_5d234da8e8937_images_12840226422.jpg",
+		"category": "laptop",
+		"price": 10999,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": true,
+		"isNew": false
+	},
+	{
+		"id": 12,
+		"title": "Phone ZTE Blade A7 2020 3/64GB Gradient Blue",
+		"img": "https://i8.rozetka.ua/goods/16687266/zte_blade_a7_2020_3_64gb_gradient_images_16687266142.jpg",
+		"category": "phone",
+		"price": 3599,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 13,
+		"title": "Laptop Huawei MediaPad T5 10 3/32GB LTE Black",
+		"img": "https://i8.rozetka.ua/goods/17117180/huawei_mediapad_t5_10_3_32_black_images_17117180347.jpg",
+		"category": "tablet",
+		"price": 6999,
+		"sale": 0,
+		"percentSale": 7,
+		"isTop": true,
+		"isNew": false
+	},
+	{
+		"id": 14,
+		"title": "Monitor 24.5 Acer Nitro VG252QP",
+		"img": "https://i2.rozetka.ua/goods/18530646/acer_um_kv2ee_p01_images_18530646283.jpg",
+		"category": "monitor",
+		"price": 7599,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": false,
+		"isNew": true
+	},
+	{
+		"id": 15,
+		"title": "Tablet Samsung Galaxy Tab S5e 10.5 (2019) Wi-Fi 64GB Black",
+		"img": "https://i2.rozetka.ua/goods/11943678/copy_samsung_sm_t725nzkasek_5cbdc004204ca_images_11943678516.jpg",
+		"category": "tablet",
+		"price": 12999,
+		"sale": 0,
+		"percentSale": 0,
+		"isTop": true,
+		"isNew": false
+	},
+	{
+		"id": 16,
+		"title": "Phone Apple iPhone Xs 64GB Space Gray",
+		"img": "https://i8.rozetka.ua/goods/16325894/copy_apple_iphone_xs_64_gb_space_gray_5e1d9b20d628e_images_16325894376.jpg",
+		"category": "phone",
+		"price": 22999,
+		"sale": 0,
+		"percentSale": 7,
+		"isTop": false,
+		"isNew": false
+	},
+	{
+		"id": 17,
+		"title": "Monitor 27 Samsung Gaming LC27RG50",
+		"img": "https://i2.rozetka.ua/goods/18139211/samsung_lc27rg50fqixci_images_18139211851.jpg",
+		"category": "monitor",
+		"price": 8999,
+		"sale": 0,
+		"percentSale": 10,
+		"isTop": false,
+		"isNew": false
+	}
+]

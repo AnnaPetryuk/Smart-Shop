@@ -1,0 +1,5 @@
+[{"id":"a1ghd5","roleName":"admin","firstName":"Yana","lastName":"Nikolaeva","login":"admin","age":"30","password":"admin"},
+ {"id":"y05h56","roleName":"user","firstName":"Sasha","lastName":"Petrov","login":"sasha26","age":"26","password":"1111"},
+ {"id":"3n51fz","roleName":"user","firstName":"Anna","lastName":"Petryuk","login":"anna24","age":"24","password":"2222"},
+ {"id":"0h4gdn","roleName":"user","firstName":"Iryna","lastName":"Skladana","login":"yana34","age":"34","password":"3333"},
+ {"id":"v653gt","roleName":"user","firstName":"Tanya","lastName":"Garyachuk","login":"tanya32","age":"32","password":"4444"}]
