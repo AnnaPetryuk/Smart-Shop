@@ -6,7 +6,7 @@ export default  {
         fullList: [],
         category: null,
         cardGoods: [],
-        isCardModalVisible: false
+        isCardModalVisible: false,
     },
     mutations: {
         'SET_GOODS_LIST'(state, payload) {

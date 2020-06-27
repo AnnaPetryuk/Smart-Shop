@@ -20,7 +20,7 @@
             {{priceAfter}}
             <span>₴</span>
         </div>
-        <input  :id="item.id+'-card'" 
+        <input :id="item.id+'-card'" 
                 type="checkbox" 
                 :name="item.id+'-card'" 
                 @change="changeCard(item.id, $event)"
@@ -70,10 +70,10 @@
                 return price;
             },
             ...mapGetters(['GET_USER']),
-            ...mapGetters(['GET_GOODS_LIST', 'GET_CARD_GOODS'])
+            ...mapGetters(['GET_GOODS_LIST', 'GET_CARD_GOODS', 'GET_GOODS_MODAL_VISIBILITY'])
         },
         methods: {
-            ...mapMutations(['SET_CARD_GOODS']),
+            ...mapMutations(['SET_CARD_GOODS', 'SET_GOODS_MODAL_VISIBILITY', 'SET_CURRENT_GOODS']),
             changeCard(itemId, event) {
                 let userCard = localStorage.getItem(`user ${this.GET_USER.id}`);
                 let localCard = userCard ? JSON.parse(userCard) : [];
@@ -195,6 +195,17 @@
                 color: #fff;
                 display: none;
             }
+            &:hover {
+                cursor: pointer;
+            }
+            
+        }
+        &__remove {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 20px;
+
             &:hover {
                 cursor: pointer;
             }

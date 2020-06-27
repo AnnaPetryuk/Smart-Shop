@@ -84,7 +84,6 @@
 </script>
 
 <style lang="scss">
-
     .registration {
         &__content {
             display: flex;

@@ -7,6 +7,7 @@ import AdminPage from '../views/AdminPage.vue'
 import NotFoundPage from '../views/NotFoundPage.vue'
 import Welcome from '../views/home-page/Welcome.vue'
 import Goods from '../views/home-page/Goods.vue'
+import AdminMain from '../views/admin-page/AdminMain.vue'
 
 Vue.use(VueRouter)
 
@@ -37,11 +38,17 @@ Vue.use(VueRouter)
     },
     {
         path: '/admin',
-        name: 'AdminPage',
         component: AdminPage,
         beforeEnter(to, from, next) {
             stopRoute(next);
-        }
+        },
+        children: [
+            {
+                path: '/',
+                name: 'AdminMain',
+                component: AdminMain
+            }
+        ]
     },
     {
         path: '*',

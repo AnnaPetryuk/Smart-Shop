@@ -1,22 +1,22 @@
 <template>
-    <div class="goods-item">
-        <div class="goods-item__image">
+    <div class="cart-item">
+        <div class="cart-item__image">
             <img :src="item.img"/>
         </div>
-        <h4 class="goods-item__title">
+        <h4 class="cart-item__title">
             {{item.title}}
         </h4>
-        <div class="goods-item__number">
+        <div class="cart-item__number">
             <span v-if="counter>1" @click="decreaseCounter">-</span>
             <input type="text" name="number" v-model="counter" value="1"/>
             <span @click="increaseCounter">+</span>
         </div>
-        <div class="goods-item__price-after">
-            <span class="goods-item__price-after--old">{{priceAfter}} ₴</span>
+        <div class="cart-item__price-after">
+            <span class="cart-item__price-after--old">{{priceAfter}} ₴</span>
             {{sumOfGoods}}
             <span>₴</span>
         </div>
-        <div class="goods-item__remove" @click="removeFromCard">&#10008;</div>
+        <div class="cart-item__remove" @click="removeFromCard">&#10008;</div>
     </div>
 </template>
 
@@ -106,7 +106,7 @@
 
 <style scoped lang="scss">
 
-    .goods-item {
+    .cart-item {
         position: relative;
         height: 150px;
         display: flex;

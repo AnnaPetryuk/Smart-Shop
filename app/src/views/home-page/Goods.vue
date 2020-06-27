@@ -9,8 +9,7 @@
                 </div>
             </div>
             <div class="goods__no-results" v-else>
-                 <img src="../../assets/found.png"/>
-               <h3> No matches </h3> 
+                <img src="../../assets/found.png"/>
             </div>
         </div>
     </div>

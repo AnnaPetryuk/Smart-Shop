@@ -58,7 +58,7 @@
             },
             GET_SERVER_CONFIRMATION(isServerConfirm) {
                 if(!isServerConfirm) {
-                    alert('If you are a new user, registration in our site!');
+                    alert('If you are a new user, you can registrated in our site!');
                 }
             }
         }

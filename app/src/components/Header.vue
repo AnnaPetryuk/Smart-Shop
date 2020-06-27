@@ -3,9 +3,9 @@
         <div class="header__logo"> Smart Shop </div>
         <div class="header__panel sprite">  
             <input id="for-search" type="checkbox" name="toggle-search"/>
-            <label for="for-search" class="sprite__item sprite__item-search"></label>
-            <input @input="searchByName" class="header__search" type="text" name="search" autocomplete="off" placeholder="Search"/>
-            <div class="sprite__item sprite__item-card" @click="openCard">
+            <label v-show="GET_USER.roleName=='user'" for="for-search" class="sprite__item sprite__item-search"></label>
+            <input v-show="GET_USER.roleName=='user'" @input="searchByName" class="header__search" type="text" name="search" autocomplete="off" placeholder="Search"/>
+            <div v-show="GET_USER.roleName=='user'" class="sprite__item sprite__item-card" @click="openCard">
                 <div class="sprite__item-card--number" v-show="GET_CARD_GOODS.length">
                     {{GET_CARD_GOODS.length}}
                 </div>
